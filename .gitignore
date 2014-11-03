@@ -1,9 +1,7 @@
-**/*.gradle
-**/*.iml
-/gradle
-gradle.properties
-gradlew
-gradlew.bat
-/local.properties
-/.idea
-/build
+*
+
+!/res/
+!/src/
+!AndroidManifest.xml
+!README.md
+!LICENCE
