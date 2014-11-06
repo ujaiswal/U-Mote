@@ -144,7 +144,8 @@ public class MainActivity extends Activity implements
         }
         
         mCommandMap = new HashMap<String, String>();
-		
+        
+        loadGestures();
 		// Socket hello
 		SocketSetup.print("hello");
 	}
@@ -258,6 +259,12 @@ public class MainActivity extends Activity implements
 			switch(sectionNumber) {
 			case 1:
 				fragment = new TrackpadFragment();
+				args = new Bundle();
+				args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+				fragment.setArguments(args);
+				return fragment;
+			case 2:
+				fragment = new KeyboardFragment();
 				args = new Bundle();
 				args.putInt(ARG_SECTION_NUMBER, sectionNumber);
 				fragment.setArguments(args);

@@ -23,7 +23,7 @@
 
     <ListView
         android:id="@android:id/list"
-
+		android:background="@android:color/darker_gray"
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight="1.0" />

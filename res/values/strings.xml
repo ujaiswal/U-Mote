@@ -3,7 +3,7 @@
 
     <string name="app_name">U-Mote</string>
     <string name="title_section1">Track Pad</string>
-    <string name="title_section2">Key Board</string>
+    <string name="title_section2">Keyboard Input</string>
     <string name="title_section3">Custom Gestures</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -24,7 +24,9 @@
     <string name="button_discard">Discard</string>
     <!-- Label, button used to save a gesture newly created -->
     <string name="button_done">Done</string>
-    
+    <string name="button_type">Type</string>
+    <string name="button_backspace">Backspace</string>
+    <string name="button_enter">Enter</string>
     <!-- Gestures -->
     <skip />
     <!-- Label, prompt asking the user to enter the name of the gesture -->
