@@ -1,7 +1,14 @@
 U-Mote
 ======
+####Ubuntu Remote Control Android Application
+####Smartphone Computing and Applications - Term Project
 
-######Ubuntu Remote Control Android Application
-##Introduction
-As the description suggests, the project aims at developing an Android based remote control application for Ubuntu.  
+Setup
+=====
+Import the android project in Android Studio or Eclipse.
 
+Developers
+==========
+Utkarsh Jaiswal  
+Shushman Choudhary  
+Aniruddha Gupta
